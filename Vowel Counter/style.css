@@ -1,0 +1,44 @@
+body{
+  background: #448aff;
+  font-family: ‘Poppins’,sans-serif;
+}
+
+.container{
+  background-color: burlywood;
+  border-radius: 30px;
+  min-width: 400px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+}
+
+.css-input{
+  position: relative;
+  width: 90%;
+  font-family: ‘Roboto mono’,monospace;
+  font-size: 30px;
+  left: 4%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.css-button{
+  background-color: #448aff;
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 160px;
+  border: none;
+  border-radius: 5px;
+  font-family: ‘Poppins’,sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.css-header{
+  text-align: center;
+}
