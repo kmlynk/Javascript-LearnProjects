@@ -1,0 +1,46 @@
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container,
+.todoScreen{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.todoInput,
+.dateInput{
+  font-size: 15px;
+  padding: 5px;
+}
+
+.addButton{
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.deleteButton{
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
