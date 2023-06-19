@@ -19,12 +19,12 @@ function showTodoList() {
   for (let i = 0; i < todoList.length; i++) {
     const todoObject = todoList[i]
 
-    const {check, name, date} = todoObject
+    const {name, date} = todoObject
 
     const html = `
-      <div class="change-name-${i}"><input type="checkbox" class="check"> ${name}</div>
+      <div><input type="checkbox" class="check">${name}</div>
 
-      <div class="change-date-${i}">Until ${date}</div>
+      <div>Until ${date}</div>
 
       <button class="js-deleteButton deleteButton" onclick="
         todoList.splice(${i}, 1)

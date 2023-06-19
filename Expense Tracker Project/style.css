@@ -1,0 +1,64 @@
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: grid;
+  grid-template-columns: 200px 100px 115px 60px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.expenseScreen{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: grid;
+  grid-template-columns: 200px 100px 115px 60px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.totalScreen{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  column-gap: 200px;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.name, 
+.date,
+.amount{
+  font-size: 12px;
+  padding: 5px;
+}
+
+.submitButton{
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.deleteButton{
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
