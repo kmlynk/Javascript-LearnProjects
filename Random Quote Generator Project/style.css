@@ -1,0 +1,61 @@
+body{
+  font-family: 'BioRhyme', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #3AAFA9;
+  color: #fff;
+}
+
+.wrapper{
+  background: #17252A;
+  width: 600px;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+}
+
+.wrapper header{
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper .content,
+.wrapper .buttons{
+  margin: 35px 0;
+}
+
+.content .quote-area{
+  display: flex;
+  justify-content: center;
+}
+
+.quote-area .quote{
+  font-size: 22px;
+  text-align: center;
+  word-break: break-all;
+}
+
+.content .author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.generate-button{
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background: #3AAFA9;
+  color: #17252A;
+  padding: 13px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+}
