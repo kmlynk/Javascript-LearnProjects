@@ -34,7 +34,15 @@ body{
 .quote-area .quote{
   font-size: 22px;
   text-align: center;
-  word-break: break-all;
+}
+
+.quote.area i{
+  font-size: 15px;
+}
+
+.quote-area i:last-child{
+  display: flex;
+  align-items: flex-end;
 }
 
 .content .author{
@@ -44,9 +52,42 @@ body{
   margin-top: 20px;
 }
 
-.buttons{
+.content .author .minus{
+  margin: -7px 5px 0 0;
+  font-weight: bold;
+}
+
+.wrapper .buttons{
+  border-top: 1px solid #ccc;
+}
+
+.wrapper .features{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.features ul{
+  display: flex;
+}
+
+.features ul li{
+  list-style: none; 
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+  border: 2px solid #3AAFA9;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.features ul li:hover{
+  background: #3AAFA9;
+  border: 2px solid #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 .generate-button{
