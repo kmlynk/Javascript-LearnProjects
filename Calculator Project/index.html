@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BioRhyme">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header> Calculator </header>
+    <div class="calculator-area">
+      <div class="calculator-screen">
+        <p class="calculation">0</p>
+      </div>
+      <div class="calculator-buttons">
+        <button class="btn clear fa-solid fa-eraser"></button>
+        <button class="btn plus-minus fa-solid fa-plus-minus"></button>
+        <button class="btn percent fa-solid fa-percent"></button>
+
+        <button class="btn divide fa-solid fa-divide" onclick="
+          addOperatorToScreen('/')
+        "></button>
+
+        <button class="btn seven fa-solid fa-7" onclick="
+          addNumberToScreen(7)
+        "></button>
+
+        <button class="btn eight fa-solid fa-8" onclick="
+          addNumberToScreen(8)
+        "></button>
+
+        <button class="btn nine fa-solid fa-9" onclick="
+          addNumberToScreen(9)
+        "></button>
+
+        <button class="btn multiply fa-solid fa-xmark" onclick="
+          addOperatorToScreen('*')
+        "></button>
+
+        <button class="btn four fa-solid fa-4" onclick="
+          addNumberToScreen(4)
+        "></button>
+
+        <button class="btn five fa-solid fa-5" onclick="
+          addNumberToScreen(5)
+        "></button>
+
+        <button class="btn six fa-solid fa-6" onclick="
+          addNumberToScreen(6)
+        "></button>
+
+        <button class="btn minus fa-solid fa-minus" onclick="
+          addOperatorToScreen('-')
+        "></button>
+
+        <button class="btn one fa-solid fa-1" onclick="
+          addNumberToScreen(1)
+        "></button>
+
+        <button class="btn two fa-solid fa-2" onclick="
+          addNumberToScreen(2)
+        "></button>
+
+        <button class="btn three fa-solid fa-3" onclick="
+          addNumberToScreen(3)
+        "></button>
+
+        <button class="btn plus fa-solid fa-plus" onclick="
+          addOperatorToScreen('+')
+        "></button>
+
+        <button class="btn zero fa-solid fa-0" onclick="
+          addNumberToScreen(0)
+        "></button>
+
+        <button class="btn comma fa-solid fa-circle fa-2xs" onclick="
+          addOperatorToScreen('.')
+        "></button>
+        
+        <button class="btn equal fa-solid fa-equals" onclick="
+          calculate()
+        "></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>  
+  <script src="https://kit.fontawesome.com/27cec9946a.js" crossorigin="anonymous"></script>
+</body>
+</html>
