@@ -1,7 +1,7 @@
 const buttonElement = document.querySelector('.js-submitButton')
 const inputElement = document.querySelector('.js-input')
 
-const vowels = 'aeiou'
+const vowels = 'AaEeIiOoUu'
 
 buttonElement.addEventListener('click', () => {
   let count = 0
