@@ -9,16 +9,16 @@ generateQuote()
 
 generateBtn.addEventListener('click', generateQuote)
 
-  function generateQuote() {  
-    generateBtn.classList.add('loading')
-    generateBtn.innerText = 'Loading...'
-    fetch('https://api.quotable.io/random').then(res => res.json())
-      .then(result => {
-        quote.innerText = `${result.content}`
-        author.innerText = `${result.author}`
-        generateBtn.innerText = 'Generate'
-        generateBtn.classList.remove('loading')
-    })
+function generateQuote() {  
+  generateBtn.classList.add('loading')
+  generateBtn.innerText = 'Loading...'
+  fetch('https://api.quotable.io/random').then(res => res.json())
+    .then(result => {
+      quote.innerText = `${result.content}`
+      author.innerText = `${result.author}`
+      generateBtn.innerText = 'Generate'
+      generateBtn.classList.remove('loading')
+  })
 }
 
 // Speech Synthesis Utterance API - Speech Request

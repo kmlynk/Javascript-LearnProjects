@@ -1,0 +1,95 @@
+body{
+  background-image: url(image/pexels-pixabay-209831.jpg);
+  background-size: auto;
+  font-family: 'BioRhyme', sans-serif;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper{
+  background: #31708E;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  padding: 30px 30px 30px;
+}
+
+.wrapper header{
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrapper .content{
+  background: #5085A5;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+}
+
+.content .search-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-area{
+  width: 200px;
+  border: solid 3px #31708E;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.search-button{
+  border: solid 3px #31708E;
+  border-radius: 10px;
+  margin-left: 2px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.content .weather-area{
+  display: flex;
+  justify-content: center;
+  background: #687864;
+  border-radius: 15px;
+  height: auto;
+  width: auto;
+  border: solid 3px #31708E;
+}
+
+.weather-area ul{
+  color: wheat;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.country{
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.city{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.temp{
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.last-update{
+  font-size: 10px;
+  font-weight: 100;
+}
