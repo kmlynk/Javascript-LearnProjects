@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Credit Card Validator </title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <header> Credit Card Validator </header>
+
+      <div class="info-container">
+        <div class="customer-info-container">
+          <input type="text" placeholder="First Name" class="input-first-name" onkeypress="
+            return (event.charCode > 64 && event.charCode < 91) 
+                    || (event.charCode > 96 && event.charCode < 123) 
+                    || (event.key == '')">
+
+          <input type="text" placeholder="Last Name" class="input-last-name" onkeypress="
+            return (event.charCode > 64 && event.charCode < 91) 
+                    || (event.charCode > 96 && event.charCode < 123) 
+                    || (event.key == '')">
+        </div>
+
+        <div class="card-info-container">
+          <input type="text" placeholder="Card Number" class="input-card" maxlength="19"
+          onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
+
+          <input type="text" placeholder="Expiration Date" class="input-date" maxlength="5" 
+          onkeypress="return (event.charCode >= 48 && event.charCode <= 57) 
+                              || (event.charCode == 47)">
+
+          <input type="text" placeholder="CVV" class="input-cvv" maxlength="3" onkeypress="
+            return (event.charCode >= 48 && event.charCode <= 57)">
+        </div>
+
+        <div class="card">
+          <div class="card-customer-name">
+            <div class="card-first-name"> MAX </div>
+            <div class="card-last-name"> MUSTERMANN </div>
+          </div>
+
+          <div class="card-card-number">#### #### #### ####</div>
+
+          <label for="expDate" class="card-date-label"> EXP </label>
+          <div class="card-date"> MM/YY </div>
+
+          <label for="cvv" class="card-cvv-label"> CVV </label>
+          <div class="card-cvv"> ### </div>
+        </div>
+
+        <button class="validate-btn"> Validate </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/27cec9946a.js" crossorigin="anonymous"></script>
+    <script src="validation.js"></script>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+body{
+  background: #5F6366;
+  font-family: 'Montserrat';
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-container{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container header{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.info-container{
+  background: #4D6D9A;
+  width: 800px;
+  height: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-info-container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-info-container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.customer-info-container input{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.card-info-container input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.card{
+  background: #86B3D1;
+  width: 600px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  justify-content: center;
+}
+
+.validate-btn{
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background: #99CED3;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-customer-name{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-first-name{
+  margin-right: 10px;
+}
+
+.card-card-number{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.card-date-label{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+.card-date{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 500px;
+}
+
+.card-cvv-label{
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 500px;
+}
+
+.card-cvv{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 500px;
+}
